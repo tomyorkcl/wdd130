@@ -30,10 +30,21 @@ p {
 
 nav{
     background-color: #004E98;
-    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
 }
 
 nav a {
+    display: block;
     color: #FF6700;
-    padding: 20px;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+
+}
+
+nav a:hover {
+    color: #C0C0C0;
 }
