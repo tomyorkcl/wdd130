@@ -42,9 +42,10 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-
+    color: #3A6EA5;
 }
 
 nav a:hover {
-    color: #C0C0C0;
+    color: #FF6700;
+    background-color: #C0C0C0;
 }
