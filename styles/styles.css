@@ -29,7 +29,7 @@ main image{
 
 aside {
     width: 20rem;
-    text-align: relative;
+    text-align: absolute;
 }
 
 aside image{
