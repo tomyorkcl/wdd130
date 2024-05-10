@@ -29,7 +29,7 @@ main image{
 
 aside {
     width: 20rem;
-    text-align: center;
+    text-align: relative;
 }
 
 aside image{
@@ -39,7 +39,7 @@ aside image{
 
 aside h2 {
     position: absolute;
-    left: 170px;
+    left: 110px;
     bottom: 350px;
 }
 
@@ -75,7 +75,7 @@ footer {
     
 }
 
-/* class selector*/
+/* class selectors*/
 
 .box {
     margin: 1rem;
