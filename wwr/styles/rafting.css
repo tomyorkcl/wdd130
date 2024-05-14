@@ -14,11 +14,37 @@
     --nav-hover-background-color: #3A6EA5;
 }
 
-.hero img {
+.hero {
+    position: relative; 
     display: block;
     width: 100%;
     height: auto;
+    top: 20px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+
+.hero article img {
+    width: 93%;
+    margin: 10px;
+}
+
+.hero h1 {
     position: relative;
+    margin: 30px;
+}
+
+
+.hero article {
+    position: absolute;
+    background-color: rgba(148, 147, 144, 0.774);
+    float: right;
+    width: 30%;
+    top: 50px;
+    right: 90px;
 }
 
 div{
@@ -53,6 +79,8 @@ nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav a {
