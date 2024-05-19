@@ -30,8 +30,8 @@
 }
 
 .hero article img {
-    width: 93%;
-    margin: 10px;
+    width: 95%;
+    margin: 8px;
     align-items: flex-end;
 }
 
@@ -45,10 +45,11 @@
     position: absolute;
     background-color: rgba(148, 147, 144, 0.774);
     float: right;
-    width: 30%;
-    top: 50px;
-    right: 90px;
+    width: 40%;
+    top: 130px;
+    right: 40px;
     align-items: center;
+    text-align: left;
 }
 
 div{
