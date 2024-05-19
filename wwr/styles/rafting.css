@@ -104,7 +104,9 @@ nav{
     font-size: 1.2rem;
     display: flex;
     text-align: right;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 nav a {
@@ -158,17 +160,4 @@ header {
     opacity: 0.8;
     top: -650px;
     border: 30px solid var(--color-six);
-}
-
-
-----------
-.white {
-    position: relative;
-    height: 299px;
-    width: 955px;
-    left: 2px;
-    top: -572px;
-    font-size: 1.9rem;
-    background-color: var(--secondary-color);
-    opacity: 0.5;
 }
