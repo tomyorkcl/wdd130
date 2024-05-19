@@ -14,6 +14,10 @@
     --nav-hover-background-color: #3A6EA5;
 }
 
+.grid {
+    display: grid;
+}
+
 .hero {
     position: relative; 
     display: block;
@@ -75,12 +79,28 @@ p {
     font-family: Roboto;
 }
 
+.navigation {
+	display: flex;
+	list-style: none;
+    font-size: 30px;
+}
+
+.navigation li {
+	align-content: center;
+}
+
+.navigation a {
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+}
+
 nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    text-align: right;
+    justify-content: center;
 }
 
 nav a {
@@ -90,6 +110,7 @@ nav a {
     padding: 1rem;
 }
 
+
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
@@ -97,6 +118,8 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 body {
@@ -113,5 +136,12 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    border-bottom: 1px solid #C0C0C0;
+    max-width: 1000px;
 }
+
 
