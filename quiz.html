@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <meta name="description" content="Quiz">
+    <meta name="author" content="Tomas Contreras">
     <link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
@@ -16,21 +18,21 @@
     <div class="q1">
 
         <label for="q1">1. What is the difference between HTML and CSS?</label>
-        <input type="text" id="CSS-HTML" name="CSS-HTML">
+        <input type="text" id="q1" name="q1">
 
     </div>
 
     <div class="q2">
 
         <label for="q2">2. Name some CSS frameworks</label>
-        <textarea name="frameworks" id="frameworks" rows="4" placeholder="Name some CSS frameworks.."></textarea>
+        <textarea name="q2" id="q2" rows="4" placeholder="Name some CSS frameworks.."></textarea>
 
     </div>
 
     <div class="q3">
 
         <label for="q3">3. If I want to change the color in a website I have to use..</label>
-        <select id="HTML" name="HTML">
+        <select id="q3" name="q3">
             <option value="Choice">Choose one..</option>
             <option value="HTML">HTML</option>
             <option value="CSS">CSS</option>
@@ -42,7 +44,7 @@
     <div class="q4">
 
         <label for="q4">4. What do you think that is more easier to learn?</label>
-        <input type="text" id="learn" name="learn">
+        <input type="number" id="q4" name="q4" min="0" max="1000"><br>
 
     </div>
     <button type="submit">Submit quiz</button>
