@@ -100,7 +100,7 @@ footer {
 }
 
 .q3 {
-    grid-template-columns: 1fr -1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 4rem 0;
 }
 
