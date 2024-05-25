@@ -59,7 +59,6 @@ div{
 h1 {
     font-family: Roboto;
     color: #004E98;
-    position: absolute;
     text-align: center;
     margin: 0 0 0 0;
     font-size: 2rem;
@@ -68,6 +67,7 @@ h1 {
 h2 {
     font-family: open sans;
     color: #004E98;
+    text-align: center;
 }
 
 h3 {
@@ -161,4 +161,66 @@ header {
     opacity: 0.8;
     top: -650px;
     border: 30px solid var(--color-six);
+}
+
+.employees {
+    display: grid;
+    align-self: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.employeesimage1 {
+    width: 250px;
+}
+
+.employeesimage2 {
+    width: 250px;
+}
+
+.employeesimage3 {
+    width: 250px;
+}
+
+.employeesimage4 {
+    width: 250px;
+}
+
+.employeesimage5 {
+    width: 250px;
+}
+
+.employees0 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background:var(--accent2-color);
+    display: grid;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    color:black;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
