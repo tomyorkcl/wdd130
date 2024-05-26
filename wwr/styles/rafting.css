@@ -165,9 +165,11 @@ header {
 
 .employees {
     display: grid;
-    align-self: center;
-    text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .employeesimage1 {
@@ -175,25 +177,13 @@ header {
 }
 
 .employeesimage2 {
-    width: 250px;
+    width: 280px;
 }
 
 .employeesimage3 {
     width: 250px;
 }
 
-.employeesimage4 {
-    width: 250px;
-}
-
-.employeesimage5 {
-    width: 250px;
-}
-
-.employees0 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
 form {
     width: 300px;
@@ -204,6 +194,8 @@ form {
     border-radius: 0.5rem;
     background:var(--accent2-color);
     display: grid;
+    text-align: start;
+    margin-top: 100px;
 }
 
 button {
@@ -218,9 +210,4 @@ button {
 
 button:hover {
     background-color: var(--accent1-color);
-}
-
-.employees {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
